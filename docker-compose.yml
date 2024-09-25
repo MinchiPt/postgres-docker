@@ -1,7 +1,7 @@
 services:
   main_db:
     image: postgres:16
-    container_name: pappa_main_db
+    container_name: main_db
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
